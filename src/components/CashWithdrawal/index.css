@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #d4d2db;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+.content-container {
+  background-color: #150b3e;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 70%;
+}
+.profile-container {
+  padding: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.profile {
+  border: 2px solid white;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  padding-top: 28px;
+  padding-left: 33px;
+  background-color: #c7d2fe;
+  margin-right: 20px;
+}
+.profile-alphabet {
+  color: #7c3aed;
+  font-size: 18px;
+}
+.profile-name {
+  font-size: 24px;
+  color: #d4d2db;
+}
+.balance-container {
+  padding: 20px;
+  display: flex;
+}
+.balance {
+  font-size: 24px;
+  color: #585076;
+  font-weight: 600;
+}
+.balance-amount-container {
+  margin-left: auto;
+  padding: 6px;
+}
+.balance-amount {
+  font-size: 30px;
+  color: #d4d2db;
+  letter-spacing: 1px;
+}
+.balance-amount-text {
+  font-size: 14px;
+  color: #585076;
+}
+.withdraw-container {
+  margin-top: 10px;
+  padding: 10px;
+}
+.withdraw-heading {
+  font-size: 24px;
+  color: #d4d2db;
+  margin-bottom: 10px;
+}
+.withdraw-description {
+  font-size: 18px;
+  color: #585076;
+  font-weight: 500;
+}
+.btn-container {
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.btn-container-parent {
+  padding: 10px;
+}
